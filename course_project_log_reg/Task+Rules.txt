@@ -1,0 +1,11 @@
+Ваша задача этом соревновании - предсказать вероятность того, подойдет ли репетитор для подготовки к экзамену по математике. Вам будут даны два датасета: train.csv (содержит признаки и целевую переменную) и test.csv (только признаки).
+
+Нельзя импортровать готовые алгоритмы кроме:
+    import numpy as np
+    import pandas as pd
+    from sklearn.model_selection import train_test_split
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+
+(Если реализовывать градиентный бустинг можно использовать решающие верево sklearn
+    from sklearn.tree import DecisionTreeRegressor  )
